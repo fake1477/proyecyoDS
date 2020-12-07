@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+.logito{
+  text-align: center;
+}
+
+
+.login-box {
+  width: 320px;
+  height: 620px;
+  background: #fff;
+  color: #000;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  border-radius: 3%;
+  box-shadow: 2px 2px 8px #999
+}
+
+.login-box .avatar {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 400px;
+  left: calc(35% - 50px);
+}
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #999;
+}
+.login-box h2{
+  font-size: 15px;
+  color: #999;
+}
+
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+  top: 80px;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #000000;
+  font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #b80f22;
+  color: #000000;
+  font-size: 18px;
+  border-radius: 5%;
+}
+
+.login-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.login-box a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.login-box a:hover {
+  color: #000000;
+}
+.cliente{
+  background-color: orangered;
+  color: #fff;
+  margin-top: 50px;
+  padding: 8px;
+  font-size: 20px;
+}
+.vendedor{
+  background-color: tomato; 
+  color: #fff;
+  padding: 8px;
+  font-size: 20px;
+}
+.repartidor{
+  background-color: #ffc107;
+  color: #fff;
+  padding: 8px;
+  font-size: 20px;
+}
+.cliente:hover{
+  background-color: #b80f22;
+  color: #fff;
+  
+}
+.vendedor:hover{
+  background-color: salmon;
+}
+.repartidor:hover{
+  background-color: goldenrod;
+}
+.cuenta-cliente{
+  color: orangered !important;
+  font-size: 28px !important;
+}
+.cuenta-vendedor{
+  color: darkorange !important;
+  font-size: 28px !important;
+}
+.cuenta-repartidor{
+  color: #ffc107 !important;
+  font-size: 28px !important;
+}
+.user{
+  border: orangered solid 2px !important;
+}
+.distrito{
+  border: orangered solid 2px !important;
+}
+.direccion{
+  border: orangered solid 2px !important;
+}
+.email{
+  border: orangered solid 2px !important;
+  margin: 0;
+  display: block;
+  top: 80px;
+  padding: 5px;
+}
+.telefono{
+  border: orangered solid 2px !important;
+}
+.contra{
+  border: orangered solid 2px !important;
+}
+.user2{
+  border: darkorange solid 2px !important;
+}
+.ruc{
+  border: darkorange solid 2px !important;
+}
+.direccion2{
+  border: darkorange solid 2px !important;
+}
+.email2{
+  border: darkorange solid 2px !important;
+  margin: 0;
+  display: block;
+  top: 80px;
+  padding: 5px;
+}
+.telefono2{
+  border: darkorange solid 2px !important;
+}
+.contra2{
+  border: darkorange solid 2px !important;
+}
+.user:hover{
+  border: darkorange solid 2px !important;
+}
+.distrito:hover{
+  border: darkorange solid 2px !important;
+}
+.direccion:hover{
+  border: darkorange solid 2px !important;
+}
+.email:hover{
+  border: darkorange solid 2px !important;
+}
+.telefono:hover{
+  border: darkorange solid 2px !important;
+}
+.contra:hover{
+  border: darkorange solid 2px !important;
+}
+.register{
+  color:#fff !important;
+}
+.register2{
+  color:#fff !important;
+  background-color: darkorange !important ;
+}
+.register3{
+  color:#fff !important;
+  background-color: #ffc107 !important ;
+}
+.register3:hover{
+  background-color: chocolate !important;
+}
+.register2:hover{
+  background-color: orangered !important;
+}
+.login-box input[type="radio"]{
+  margin: -11px;
+}
+.user3{
+  border:  #ffc107 solid 2px !important;
+}
+.dni{
+  border: #ffc107 solid 2px !important;
+}
+.email3{
+  border:  #ffc107 solid 2px !important;
+  margin: 0;
+  display: block;
+  top: 80px;
+  padding: 5px;
+}
+.telefono3{
+  border:  #ffc107 solid 2px !important;
+}
+.contra3{
+  border:  #ffc107 solid 2px !important;
+}
+

@@ -1,0 +1,20 @@
+create table cliente (
+id int primary key auto_increment,
+nombres varchar(20),
+distrito varchar(20),
+direccion varchar(30),
+email varchar(40),
+telefono int(9),
+contrasena varchar(20)
+);
+
+create table vendedor (
+id int primary key auto_increment,
+nombres varchar(20),
+RUC int(11),
+distrito varchar(20),
+direccion varchar(30),
+email varchar(40),
+telefono int(9),
+contrasena varchar(20)
+);

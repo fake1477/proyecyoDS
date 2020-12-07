@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+
+<div class="col-md-4 offset-md-4">
+    <div class="card card-body">
+
+        <form action="/update_vendedor/{{vend.0}}" ; method="post">
+            <h1>EDIT</h1>
+            <div class="form-group">
+                <!--label for="nombres">Nombres</label-->
+                <input type="text" class="form-control" name="nombre" value="{{vend.1}}">
+                <small id="emailHelp" class="form-text text-muted">Nombre</small>
+            </div>
+            <div class="form-group">
+                <!--label for="nombres">Nombres</label-->
+                <input type="text" class="form-control" name="RUC" value="{{vend.2}}">
+                <small id="emailHelp" class="form-text text-muted">RUC</small>
+            </div>
+            <div class="form-group">
+                <!--label for="nombres">Nombres</label-->
+                <input type="text" class="form-control" name="distrito" value="{{vend.3}}">
+                <small id="emailHelp" class="form-text text-muted">Distrito</small>
+            </div>
+            <div class="form-group">
+                <!--label for="nombres">Nombres</label-->
+                <input type="text" class="form-control" name="direccion" value="{{vend.4}}">
+                <small id="emailHelp" class="form-text text-muted">Direccion</small>
+            </div>
+            <div class="form-group">
+                <!--label for="nombres">Nombres</label-->
+                <input type="text" class="form-control" name="email" value="{{vend.5}}">
+                <small id="emailHelp" class="form-text text-muted">Email</small>
+            </div>
+            <div class="form-group">
+                <!--label for="telefono">Telefono</label-->
+                <input type="text" class="form-control" name="telefono" value="{{vend.6}}">
+                <small id="emailHelp" class="form-text text-muted">Telefono</small>
+            </div>
+            <div class="form-group">
+                <!--label for="email">Email</label-->
+                <input type="text" class="form-control" name="contraseña" value="{{vend.7}}">
+                <small id="emailHelp" class="form-text text-muted">Contraseña</small>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-succes btn-block">Save</button>
+            </div>
+
+        </form>
+    </div>
+</div>
+{% endblock %}
